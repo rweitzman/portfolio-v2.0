@@ -4,7 +4,10 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import ProjectImg from '../Image/ProjectImg';
+import PopmysticVideo from '../Video/PopmysticVideo';
+import CarouselComponent from '../Image/CarouselComponent';
+import Portfolio1Video from '../Video/Portfolio1Video';
+import AriaVideo from '../Video/AriaVideo';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -28,7 +31,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, video1, carousel, video2, video3 } = project;
 
             return (
               <Row key={id}>
@@ -49,20 +52,23 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      {url && (
+                        <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
+                        className="cta-btn cta-btn--hero mr-3"
                         href={url || '#!'}
                       >
                         See Live
                       </a>
-
+                      )}
+                      
                       {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
+                          // className="cta-btn text-color-secondary"
                           href={repo}
                         >
                           Source Code
@@ -81,12 +87,13 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        // href={url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
                         <Tilt
+                        style={{display: "grid", placeItems: "center"}}
                           options={{
                             reverse: false,
                             max: 8,
@@ -99,9 +106,24 @@ const Projects = () => {
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
                           }}
                         >
-                          <div data-tilt className="thumbnail rounded">
+                          {img && (
+                            <div data-tilt className="thumbnail rounded">
                             <ProjectImg alt={title} filename={img} />
                           </div>
+                          )}
+                           {video1 && (
+                            <PopmysticVideo />
+                          )}
+                           {carousel && (
+                            <CarouselComponent />
+                          )}
+                            {video2 && (
+                            <Portfolio1Video />
+                          )}
+                             {video3 && (
+                            <AriaVideo />
+                          )}
+                          
                         </Tilt>
                       </a>
                     </div>
