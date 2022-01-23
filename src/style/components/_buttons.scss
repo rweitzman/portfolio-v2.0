@@ -23,14 +23,12 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  background-color: $primary-color;
-  // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-color: $primary-color;
-  // border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
@@ -72,7 +70,7 @@
   }
 
   &:hover {
-    color: $primary-color;
+    color: $secondary-color;
     text-decoration: none;
 
     &::after {
