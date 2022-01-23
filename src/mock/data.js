@@ -81,7 +81,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'robinweitzman3579@gmail.com',
 };
 
 // FOOTER DATA
