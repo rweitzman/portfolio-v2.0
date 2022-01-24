@@ -26,15 +26,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: '',
-    title: 'This Portfolio! - Robin Weitzman Porfolio v.2.0',
-    info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components, functionality, files, styling, etc - it is FAR from the original template!',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/rweitzman/portfolio2022.git',
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'selfie2.png',
+  //   title: 'This Portfolio! - Robin Weitzman Porfolio v.2.0',
+  //   info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components, functionality, files, styling, etc - it is FAR from the original template!',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/rweitzman/portfolio2022.git',
+  // },
   {
     id: nanoid(),
     video1: 'true',
