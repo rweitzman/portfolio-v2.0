@@ -37,18 +37,10 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    "Hi, I'm Robin Weitzman! I'm a full-stack mobile and web applications developer. I create applications from start to production. I'm a fast learner and I thrive on geting better every day!"}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'I graduated from a bootcamp in June, 2021, and have since worked with a pre-launch startup, co-authoring a React-Native mobile application.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree ||
-                    'My motivation to create beautiful applications comes from my deep desire to do my part, each and everyday, to make the world just a bit better - any way I can!'}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
+                <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
+                <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
+
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

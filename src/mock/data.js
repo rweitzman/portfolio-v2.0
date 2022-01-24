@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'selfie2.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "Hi, I'm Robin Weitzman! I LOVE coding, I LOVE Javascript, and I LOVE frameworks! I LOVE my profession, I LOVE my family, I LOVE my dog, and I LOVE people.",
+  paragraphTwo:
+    'I am a retired chef, so I am bordeline obsessive, a boredline workaholic, and 100% a team player, all day, every day! I fully enjoy freelance work, 1099 contract, and full-time positions.',
+  paragraphThree:
+    "I am hard working, opinionated, passionate, creative, and loyal developer. I simply cannot wait to meet you, because I am sure I will love the work we will do together. Now, let's go make some awesome software together!",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -78,7 +81,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'robinweitzman3579@gmail.com',
 };
 
 // FOOTER DATA
@@ -86,23 +89,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/rlweitzman',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/robinweitzman1/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/rweitzman',
     },
   ],
 };
