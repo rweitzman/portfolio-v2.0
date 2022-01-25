@@ -18,23 +18,26 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'selfie2.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    "Hi, I'm Robin Weitzman! I LOVE coding, I LOVE Javascript, and I LOVE frameworks! I LOVE my profession, I LOVE my family, I LOVE my dog, and I LOVE people.",
+  paragraphTwo:
+    'I am a retired chef, so I am bordeline obsessive, a boredline workaholic, and 100% a team player, all day, every day! I fully enjoy freelance work, 1099 contract, and full-time positions.',
+  paragraphThree:
+    "I am hard working, opinionated, passionate, creative, and loyal developer. I simply cannot wait to meet you, because I am sure I will love the work we will do together. Now, let's go make some awesome software together!",
+  resume: '../images/resume2022.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: '',
-    title: 'This Portfolio! - Robin Weitzman Porfolio v.2.0',
-    info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components, functionality, files, styling, etc - it is FAR from the original template!',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/rweitzman/portfolio2022.git',
-  },
+  // {
+  //   id: nanoid(),
+  //   img: '',
+  //   title: 'This Portfolio! - Robin Weitzman Porfolio v.2.0',
+  //   info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components, functionality, files, styling, etc - it is FAR from the original template!',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/rweitzman/portfolio2022.git',
+  // },
   {
     id: nanoid(),
     video1: 'true',
@@ -78,7 +81,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'robinweitzman3579@gmail.com',
 };
 
 // FOOTER DATA
@@ -86,28 +89,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/rlweitzman',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/robinweitzman1/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/rweitzman',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
