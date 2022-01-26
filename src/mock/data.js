@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Robin Weitzman', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: 'Welcome to my portfolio', // e.g: Welcome to my website
+  title: 'Robin Weitzman',
+  lang: '',
+  description: 'Welcome to my portfolio',
 };
 
 // HERO DATA
@@ -19,12 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'selfie2.png',
   paragraphOne:
-    "Hi, I'm Robin Weitzman! I LOVE coding, I LOVE Javascript, and I LOVE frameworks! I LOVE my profession, I LOVE my family, I LOVE my dog, and I LOVE people.",
+    "Hi, I'm Robin Weitzman! I LOVE coding, I LOVE Javascript, and I LOVE frameworks! I LOVE my profession, I LOVE my family, I LOVE my dog, ....and I LOVE people.",
   paragraphTwo:
     'I am a retired chef, so I am bordeline obsessive, a boredline workaholic, and 100% a team player, all day, every day! I fully enjoy freelance work, 1099 contract, and full-time positions.',
   paragraphThree:
-    "I am hard working, opinionated, passionate, creative, and loyal developer. I simply cannot wait to meet you, because I am sure I will love the work we will do together. Now, let's go make some awesome software together!",
-  resume: '', // if no resume, the button will not show up
+    "I am hard working, opinionated, passionate, creative, and loyal developer. Most of my recent pojects can't be shared on here, due to confidentiality, but they are on my resume. I'd love to chat with you about them! I simply cannot wait to meet you, because I am sure we will love the work we will do together. Now, let's go make some awesome software together!",
+  resume: '',
 };
 
 // PROJECTS DATA
@@ -33,10 +33,10 @@ export const projectsData = [
   //   id: nanoid(),
   //   img: '',
   //   title: 'This Portfolio! - Robin Weitzman Porfolio v.2.0',
-  //   info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components, functionality, files, styling, etc - it is FAR from the original template!',
+  //   info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components (more to come with time!), functionality, files, styling, etc - it is FAR from the original template!',
   //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/rweitzman/portfolio2022.git',
+  //   url: 'https:/www.youfoundrobin.com',
+  //   repo: "https://github.com/rweitzman/portfolio2022",
   // },
   {
     id: nanoid(),
@@ -63,7 +63,7 @@ export const projectsData = [
     title: 'Robin Weitzman Porfolio v.1.0',
     info: 'I wrote this portfolio website completely from scratch with HTML/CSS/jQuery. It holds my earlier software engineering projects.',
     info2: '',
-    url: 'https://www.youfoundrobin.com/',
+    url: '',
     repo: 'https://github.com/rweitzman/robin-portfolio.git',
   },
   {
