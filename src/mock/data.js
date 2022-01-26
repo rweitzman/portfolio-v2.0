@@ -19,12 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'selfie2.png',
   paragraphOne:
-    "Hi, I'm Robin Weitzman! I LOVE coding, I LOVE Javascript, and I LOVE frameworks! I LOVE my profession, I LOVE my family, I LOVE my dog, and I LOVE people.",
+    "Hi, I'm Robin Weitzman! I LOVE coding, I LOVE Javascript, and I LOVE frameworks! I LOVE my profession, I LOVE my family, I LOVE my dog, ....and I LOVE people.",
   paragraphTwo:
     'I am a retired chef, so I am bordeline obsessive, a boredline workaholic, and 100% a team player, all day, every day! I fully enjoy freelance work, 1099 contract, and full-time positions.',
   paragraphThree:
-    "I am hard working, opinionated, passionate, creative, and loyal developer. I simply cannot wait to meet you, because I am sure I will love the work we will do together. Now, let's go make some awesome software together!",
-  resume: '../images/resume2022.pdf', // if no resume, the button will not show up
+    "I am hard working, opinionated, passionate, creative, and loyal developer. Most of my recent pojects can't be shared on here, due to confidentiality, but they are on my resume. I'd love to chat with you about them! I simply cannot wait to meet you, because I am sure we will love the work we will do together. Now, let's go make some awesome software together!",
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
