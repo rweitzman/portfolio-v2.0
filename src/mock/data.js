@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Robin Weitzman', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -24,7 +24,7 @@ export const aboutData = {
     'I am a retired chef, so I am bordeline obsessive, a boredline workaholic, and 100% a team player, all day, every day! I fully enjoy freelance work, 1099 contract, and full-time positions.',
   paragraphThree:
     "I am hard working, opinionated, passionate, creative, and loyal developer. I simply cannot wait to meet you, because I am sure I will love the work we will do together. Now, let's go make some awesome software together!",
-  resume: '../images/resume2022.pdf', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
