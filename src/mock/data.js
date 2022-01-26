@@ -33,10 +33,10 @@ export const projectsData = [
   //   id: nanoid(),
   //   img: '',
   //   title: 'This Portfolio! - Robin Weitzman Porfolio v.2.0',
-  //   info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components, functionality, files, styling, etc - it is FAR from the original template!',
+  //   info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components (more to come with time!), functionality, files, styling, etc - it is FAR from the original template!',
   //   info2: '',
-  //   url: '',
-  //   repo: "",
+  //   url: 'https:/www.youfoundrobin.com',
+  //   repo: "https://github.com/rweitzman/portfolio2022",
   // },
   {
     id: nanoid(),
