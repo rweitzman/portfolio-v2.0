@@ -36,7 +36,7 @@ export const projectsData = [
   //   info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components, functionality, files, styling, etc - it is FAR from the original template!',
   //   info2: '',
   //   url: '',
-  //   repo: 'https://github.com/rweitzman/portfolio2022.git',
+  //   repo: "",
   // },
   {
     id: nanoid(),
@@ -63,7 +63,7 @@ export const projectsData = [
     title: 'Robin Weitzman Porfolio v.1.0',
     info: 'I wrote this portfolio website completely from scratch with HTML/CSS/jQuery. It holds my earlier software engineering projects.',
     info2: '',
-    url: 'https://www.youfoundrobin.com/',
+    url: '',
     repo: 'https://github.com/rweitzman/robin-portfolio.git',
   },
   {
