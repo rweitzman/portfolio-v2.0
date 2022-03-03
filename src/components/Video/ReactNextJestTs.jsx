@@ -1,11 +1,11 @@
 import React from 'react';
 
-const AriaVideo = () => (
+const ReactNextJestTs = () => (
   <div>
     <iframe
       width="560"
       height="315"
-      src="https://www.youtube.com/embed/I16nxssfCKo"
+      src="https://www.youtube.com/embed/fMKmaNmi7NI"
       title="YouTube video player"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -14,4 +14,4 @@ const AriaVideo = () => (
   </div>
 );
 
-export default AriaVideo;
+export default ReactNextJestTs;

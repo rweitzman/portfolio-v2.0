@@ -5,10 +5,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import ReactNextJestTs from '../Video/ReactNextJestTs';
+import ReactReduxSaga from '../Video/ReactReduxSaga';
+import ReactRedux from '../Video/ReactRedux';
 import PopmysticVideo from '../Video/PopmysticVideo';
 import CarouselComponent from '../Image/CarouselComponent';
 import Portfolio1Video from '../Video/Portfolio1Video';
-import AriaVideo from '../Video/AriaVideo';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -32,8 +34,21 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id, video1, carousel, video2, video3 } =
-              project;
+            const {
+              title,
+              info,
+              info2,
+              url,
+              repo,
+              img,
+              id,
+              video1,
+              carousel,
+              video2,
+              video3,
+              video4,
+              video5,
+            } = project;
 
             return (
               <Row key={id}>
@@ -109,10 +124,12 @@ const Projects = () => {
                               <ProjectImg alt={title} filename={img} />
                             </div>
                           )}
-                          {video1 && <PopmysticVideo />}
+                          {video1 && <ReactNextJestTs />}
+                          {video2 && <ReactReduxSaga />}
+                          {video3 && <ReactRedux />}
+                          {video4 && <PopmysticVideo />}
+                          {video5 && <Portfolio1Video />}
                           {carousel && <CarouselComponent />}
-                          {video2 && <Portfolio1Video />}
-                          {video3 && <AriaVideo />}
                         </Tilt>
                       </a>
                     </div>

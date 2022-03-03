@@ -29,23 +29,46 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  // {
-  //   id: nanoid(),
-  //   img: '',
-  //   title: 'This Portfolio! - Robin Weitzman Porfolio v.2.0',
-  //   info: 'I created this portfolio with Gatsby from a free template, but added a TON of custom components (more to come with time!), functionality, files, styling, etc - it is FAR from the original template!',
-  //   info2: '',
-  //   url: 'https:/www.youfoundrobin.com',
-  //   repo: "https://github.com/rweitzman/portfolio2022",
-  // },
   {
     id: nanoid(),
     video1: 'true',
+    title: 'React/Next/Jest/Typescript Boiler Plate',
+    info: 'I created this simple boiler plate for myself and others to use to start a project with React, Next.js, Jest for testing, and Typescript. Simple, yet effective',
+    info2:
+      'My role was to create the front-end in Vuetify, based on the wireframes the client supplied from Figma. Created with React.js/Gatsby/GraphQL',
+    repo: 'https://github.com/rweitzman/react-next-ts-jest',
+  },
+  {
+    id: nanoid(),
+    video2: 'true',
+    title: 'Simple React/Redux/Saga App',
+    info: 'I created a simple React, Redux, and Saga app with data rendered from a fake API. Routes created with react-router-dom',
+    repo: 'https://github.com/rweitzman/ReactReduxSaga',
+  },
+  {
+    id: nanoid(),
+    video3: 'true',
+    title: 'Simple React/Redux App',
+    info: 'I created a simple React and Redux app with data rendered from a fake API. Routes created with react-router-dom',
+    repo: 'https://github.com/rweitzman/ReactRedux',
+  },
+  {
+    id: nanoid(),
+    video4: 'true',
     title: 'www.popmystic.com',
     info: 'Project was comissioned by a client and built in a two-partner duo. We built this in Vuetify on the AWS cloud for the backend.',
     info2:
       'My role was to create the front-end in Vuetify, based on the wireframes the client supplied from Figma. Created with React.js/Gatsby/GraphQL',
     url: 'https://www.popmystic.com/',
+  },
+  {
+    id: nanoid(),
+    video5: 'true',
+    title: 'Robin Weitzman Porfolio v.1.0',
+    info: 'I wrote this portfolio website completely from scratch with HTML/CSS/jQuery. It holds my earlier software engineering projects.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/rweitzman/robin-portfolio.git',
   },
   {
     id: nanoid(),
@@ -56,24 +79,6 @@ export const projectsData = [
     info2:
       'I worked on various portions of the front-end in React-Native and some of the AWS cloud database portions, working in various databases, including using Elasticsearch and GraphQL.',
     repo: '',
-  },
-  {
-    id: nanoid(),
-    video2: 'true',
-    title: 'Robin Weitzman Porfolio v.1.0',
-    info: 'I wrote this portfolio website completely from scratch with HTML/CSS/jQuery. It holds my earlier software engineering projects.',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/rweitzman/robin-portfolio.git',
-  },
-  {
-    id: nanoid(),
-    video3: 'true',
-    title: 'Aria Dog Food - Psuedo Retail Site',
-    info: 'This is the final project of my bootcamp, a pseudo retail site, written with HTML/CSS and Node.js.',
-    info2: 'It is quite amazing for me to look back on this to see how far I have come.',
-    url: 'http://ariadogfood.herokuapp.com/',
-    repo: 'https://github.com/rweitzman/Capstone',
   },
 ];
 
