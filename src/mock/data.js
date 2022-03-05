@@ -31,14 +31,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    resume: 'true',
-    title: 'Resume',
-    info: 'resume',
-    info2: '',
-    repo: 'https://github.com/rweitzman/react-next-ts-jest',
-  },
-  {
-    id: nanoid(),
     video1: 'true',
     title: 'React/Next/Jest/Typescript Boiler Plate',
     info: 'I created this simple boiler plate for myself and others to use to start a project with React, Next.js, Jest for testing, and Typescript. Simple, yet effective',
