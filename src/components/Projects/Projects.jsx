@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
-import Resume from '../Resume/ResumeComponent';
+
 import ReactNextJestTs from '../Video/ReactNextJestTs';
 import ReactReduxSaga from '../Video/ReactReduxSaga';
 import ReactRedux from '../Video/ReactRedux';
@@ -43,7 +43,6 @@ const Projects = () => {
               repo,
               img,
               id,
-              resume,
               video1,
               carousel,
               video2,
@@ -126,7 +125,6 @@ const Projects = () => {
                               <ProjectImg alt={title} filename={img} />
                             </div>
                           )}
-                          {resume && <Resume />}
                           {video1 && <ReactNextJestTs />}
                           {video2 && <ReactReduxSaga />}
                           {video3 && <ReactRedux />}

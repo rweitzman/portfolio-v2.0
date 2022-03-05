@@ -24,7 +24,7 @@ export const aboutData = {
     'I am a retired chef, so I am bordeline obsessive, a boredline workaholic, and 100% a team player, all day, every day! I fully enjoy freelance work, 1099 contract, and full-time positions.',
   paragraphThree:
     "I am hard working, opinionated, passionate, creative, and loyal developer. Most of my recent pojects can't be shared on here, due to confidentiality, but they are on my resume. I'd love to chat with you about them! I simply cannot wait to meet you, because I am sure we will love the work we will do together. Now, let's go make some awesome software together!",
-  resume: '',
+  resume: 'resume.pdf',
 };
 
 // PROJECTS DATA
