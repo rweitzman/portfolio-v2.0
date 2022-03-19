@@ -75,7 +75,7 @@ export const projectsData = [
     carousel: 'true',
     img: '',
     title: 'Club Soda - Dating App',
-    info: 'I worked on a temporary basis, just after graduatin my bootcamp, to give a hand to a small team of friends working on debugging an exteranlly commissioned app for hopes of launching it on the various app stores.',
+    info: 'I worked on a temporary basis, just after graduating my bootcamp, to give a hand to a small team of friends working on debugging an externally commissioned app for hopes of launching it on the various app stores.',
     info2:
       'I worked on various portions of the front-end in React-Native and some of the AWS cloud database portions, working in various databases, including using Elasticsearch and GraphQL.',
     repo: '',
